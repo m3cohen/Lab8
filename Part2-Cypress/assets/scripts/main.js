@@ -16,10 +16,10 @@ slider.addEventListener('input', () => {
   hornSound.volume = slider.value / 100;
   updateVolumeIcon();
 
-  if(numInput.value == 0) { 
-    honkBtn.setAttribute('disabled', true); 
-  } else { 
-    honkBtn.removeAttribute('disabled'); 
+  if(numInput.value == 0) {
+    honkBtn.setAttribute('disabled', true);
+  } else {
+    honkBtn.removeAttribute('disabled');
   }
 });
 
@@ -28,10 +28,10 @@ numInput.addEventListener('input', () => {
   hornSound.volume = slider.value / 100;
   updateVolumeIcon();
 
-  if(numInput.value == 0) { 
-    honkBtn.setAttribute('disabled', true); 
-  } else { 
-    honkBtn.removeAttribute('disabled'); 
+  if(numInput.value == 0) {
+    honkBtn.setAttribute('disabled', true);
+  } else {
+    honkBtn.removeAttribute('disabled');
   }
 });
 
